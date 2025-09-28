@@ -34,12 +34,12 @@ pip install pygame pyserial
         ```
         ax,ay,az
         ```
-3. Connect Arduino to PC (check your port, e.g. `/dev/ttyACM0` or `COM3`).
+3. Connect Arduino to PC (check your port, e.g. `/dev/ttyACM0`(Linux distros or Macbook) or `COM3`(Windows)).
 
 ## Run the Game
 
 ```bash
-python axis_drift.py
+python index.py
 ```
 Tilt the MPU6050 sensor to control the glowing orb, collect coins, and rack up points!
 
