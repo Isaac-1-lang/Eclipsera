@@ -200,6 +200,8 @@ def main():
     state = STATE_MENU
 
     # Gameplay variables (set when game starts)
+    obstacles = []
+    start_time = 0.0
     def init_game():
         nonlocal ball_x, ball_y, score, coin_x, coin_y, coin_special, power_active, power_ends_at
         nonlocal obstacles, start_time
